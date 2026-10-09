@@ -62,7 +62,7 @@ class MainActivity : Activity() {
             inputType = InputType.TYPE_CLASS_TEXT or
                     InputType.TYPE_TEXT_VARIATION_URI or
                     InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS
-            singleLine = true
+            maxLines = 1
         }
         connectButton = Button(this).apply {
             text = "Подключить / переподключить"
